@@ -1,4 +1,4 @@
-import { IFieldSchema } from '../../../common/services/datatypes/RenderListData';
+import { IFieldSchema } from "../../../common/services/datatypes/RenderListData";
 
 export interface IListFormState {
   isLoadingSchema: boolean;
@@ -13,4 +13,5 @@ export interface IListFormState {
   showUnsupportedFields?: boolean;
   hasError: boolean;
   errorInfo: string;
+  editingField: boolean;
 }

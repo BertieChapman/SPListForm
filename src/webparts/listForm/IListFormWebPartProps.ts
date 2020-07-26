@@ -1,6 +1,6 @@
-import { ControlMode } from '../../common/datatypes/ControlMode';
-import { IFieldConfiguration } from './components/IFieldConfiguration';
-
+import { ControlMode } from "../../common/datatypes/ControlMode";
+import { IFieldConfiguration } from "./components/fieldConfig/IFieldConfiguration";
+import { WebPartContext } from "@microsoft/sp-webpart-base";
 
 export interface IListFormWebPartProps {
   title: string;
@@ -11,4 +11,5 @@ export interface IListFormWebPartProps {
   showUnsupportedFields: boolean;
   redirectUrl?: string;
   fields?: IFieldConfiguration[];
+  context: WebPartContext;
 }

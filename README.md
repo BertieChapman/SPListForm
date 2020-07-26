@@ -74,3 +74,30 @@ This Web Part illustrates the following concepts on top of the SharePoint Framew
 - Using custom drop-down property editors in the property pane.
 
 <img src="https://telemetry.sharepointpnp.com/sp-dev-fx-webparts/samples/react-list-form" />
+
+## To do
+
+Conditional rendering
+
+- Fields to render based on conditions of other fields
+
+Field level permissions
+
+- Fields to render based on current user's membership of group
+- Fields to be editable based on current user's membership of group
+- Fields rendering should be able to be set to either not visible or view only based on permissions
+
+Sections
+
+- Implement form sections
+- Form sections should have same visibility logic based on permissions as fields
+
+Field attribute panel
+
+- Implement a modal panel to allow editing of field display attributes. This will be where the field level permissions and conditional
+  rendering settings can be set
+
+Additional components
+
+- People picker
+- Date range

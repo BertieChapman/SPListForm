@@ -12,9 +12,10 @@ declare interface IListFormStrings {
   ErrorOnSavingListItem: string;
   MoveField: string;
   RemoveField: string;
+  EditField: string;
 }
 
-declare module 'ListFormStrings' {
+declare module "ListFormStrings" {
   const strings: IListFormStrings;
   export = strings;
 }
